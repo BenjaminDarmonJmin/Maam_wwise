@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E695672-67D2-41FE-9FEF-503271D0DFEC}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1E695672-67D2-41FE-9FEF-503271D0DFEC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1E695672-67D2-41FE-9FEF-503271D0DFEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_oceanie_amb" ID="{9052646A-0148-4395-ABD6-91589902B618}">
+					<ChildrenList>
+						<Action Name="" ID="{3216EC39-782F-4F9F-9E60-27639405A63F}" ShortID="579224906">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="oceanie_amb" ID="{9BA9B70E-5759-4581-A4BB-21C9ADDBEE78}" WorkUnitID="{CFB24CA3-BAE4-4606-90C9-EC33CF91B1FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_oceanie_amb" ID="{F50E0B52-C0AA-49E4-B48C-55DA2E33CABC}">
+					<ChildrenList>
+						<Action Name="" ID="{08FAC688-E853-4CDA-AB1C-69E513380F11}" ShortID="150614515">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="oceanie_amb" ID="{9BA9B70E-5759-4581-A4BB-21C9ADDBEE78}" WorkUnitID="{CFB24CA3-BAE4-4606-90C9-EC33CF91B1FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
